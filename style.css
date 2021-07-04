@@ -1,0 +1,448 @@
+@font-face {
+    src: url("img/KiwiMaru-Regular.ttf");
+    font-family: korim;
+}
+@font-face{
+    src: url("img/KiwiMaru-Light.ttf");
+    font-family: rohim;
+}
+*{
+    padding: 0px ;
+    margin: 0px;
+}
+/* psd header start */
+.main{
+    background-color: black;
+    height: 650px;
+
+}
+
+.mid{
+    width: 85%;
+    margin: auto;
+    background-image: url("header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    font-family: korim;
+
+}
+.blur{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(37,35,51,0.9);
+}
+.header_menu{
+    height: 100px;
+}
+.left{
+    width:40%;
+    float: left;
+    text-align: center;
+}
+.middle{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.right{
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+.left ul li{
+    display: inline-block;
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+
+
+}
+.right ul li{
+    display: inline-block;
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+
+
+
+}
+.middle img{
+    margin-top: 10px;
+}
+.header_mid{
+    height: 550px;
+    width: 100%;
+}
+.header_left{
+    width: 50%;
+    float: left;
+}
+.header_right{
+    width: 50%;
+    float: left;
+}
+.header_left img{
+    height: 400px;
+    margin: 96px 0px 0px 35px;
+}
+.header_right h1{
+    font-size: 50px;
+    margin-top: 97px;
+    font-weight: bold;
+    color: #FE9000;
+}
+.header_right p{
+    font-size: 21px;
+    margin-top: 10px;
+    padding-right: 79px;
+    color: white;
+}
+.header_right button{
+    outline: none;
+    border: none;
+    background-color:#FE9000 ;
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(43, 41, 41);
+
+}
+/* psd header end */
+
+/* about start  */
+
+
+
+.about_main{
+    background-color: black;
+    height: 600px;
+}
+.about_mid{
+    width: 85%;
+    margin: auto;
+    height: 600px;
+    background-color: #18171E;
+
+    font-family: korim;
+
+}
+.about_mid_left{
+    width: 55%;
+
+    float: left;
+
+}
+.about_mid_right{
+    width: 45%;
+    float: left;
+}
+.about_mid_left img{
+    height: 430px;
+    width: 430px;
+    margin:91px 0px 0px 180px;
+}
+.about_mid_right h1{
+    font-size: 40px;
+    margin-top: 120px;
+    font-weight: bold;
+    color: white;
+}
+.about_mid_right p{
+    font-size: 21px;
+    margin-top: 10px;
+    padding-right: 106px;
+    color: white;
+}
+/* about end  */
+
+/* quality start  */
+.quality_main{
+    background-color: black;
+}
+.quality_mid{
+    width: 85%;
+    background-color: #18171E;
+    height: 1550px;
+    margin: auto;
+    background-image: url("img/quality-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+}
+.quality_text{
+    position: absolute;
+    top: 450px;
+    left: 186px;
+}
+.quality_text h1{
+        color: white;
+        font-family: korim;
+        margin-bottom: 20px;
+    }
+.quality_text p{
+    font-family: korim;
+    color: white;
+    margin-right: 703px;
+    font-weight: bold;
+
+
+}
+.quality_food_one{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+
+}
+.quality_food_one img{
+    height: 500px;
+}
+.quality_food_three{
+    position: absolute;
+    left: 0px;
+    bottom: 90px;
+
+}
+.quality_food_three img{
+    height: 500px;
+}
+.quality_food_two{
+    position: absolute;
+    right: 0px;
+    bottom: 126px;
+   
+
+}
+.quality_food_two img{
+    height: 800px;
+}
+/* quality end  */
+
+/* gallary start  */
+.gallary_main{
+    background-color: black;
+
+}
+.gallary_mid{
+    background-color: #18171E;
+    width: 85%;
+    margin: auto;
+    height: 1000px;
+}
+.gallary_head{
+    text-align: center;
+    font-family: korim;
+    height:100px ;
+}
+.gallary_body{
+    text-align: center;
+}
+.card1 img{
+    height: 400px;
+    margin-top: 30px;
+}
+.card1{
+    width: 33.33%;
+    float: left;
+    
+}
+ /* gallary end  */
+
+
+
+ /* enjoy food start  */
+ .food_main{
+     background-color: black;
+
+ }
+ .food_mid{
+     height: 940px;
+     width: 85%;
+     margin: auto;
+     background-color:#18171E;
+     background-image: url("img/foodbg.jpg");
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-position: center;
+     position: relative;
+ }
+ .food_bg{
+     position: absolute;
+     top: 328px;
+    left: 288px;
+    position: relative;
+ }
+ .food_bg img{
+    height: 359px;
+    width: 562px;
+ }
+ .food_text{
+     height:359px ;
+     width:562px ;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+ }
+ .food_text h1{
+     color: white;
+     font-family: korim;
+     margin-top: 50px;
+     text-align: center;
+ }
+ .food_text h3{
+    color: white;
+    font-family: korim;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+ /* enjoy food end  */
+
+
+ /* menu star  */
+ .menu_main{
+     background-color: black;
+ }
+.menu_mid{
+    width: 85%;
+    background-color:#18171E;
+    height: 600px;
+    margin: auto;
+}
+.menu_header{
+    text-align: center;
+    font-family: korim;
+    color: white;
+    margin-bottom: 50px;
+
+
+}
+.menu_card {
+    width: 30%;
+    margin-left: 35px;
+    float: left;
+
+}
+.menu_card img{
+    width: 300px;
+}
+
+.menu_card h3{
+    font-family: korim;
+    color: #F98E00;
+    margin-top: 10px;
+
+}
+.menu_card p{
+    color: white;
+    font-family: korim;
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu_card h4{
+    font-family: korim;
+    color: #F98E00;
+
+}
+/* menu end  */
+
+
+/* best meal start  */
+.best_main {
+    background-color: black;
+}
+.best_mid{
+    width: 85%;
+    background-color:#18171E;
+    height: 640px;
+    margin: auto;
+    background-image: url("img/bestmealbg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+.best_left{
+    width: 50%;
+    float: left;
+}
+.best_right{
+    width: 50%;
+    float: left;
+}
+.best_right h1{
+    font-family: korim;
+    color: white;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.best_right p{
+    color: white;
+    font-family: korim;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+   
+}
+/* best meal end  */
+
+/* footer start  */
+.footer_main{
+    background-color: black;
+}
+.footer_mid{
+    width: 85%;
+    height: 300px;
+    background-color:#18171E;
+    margin: auto;
+}
+.footer_logo{
+    text-align: center;
+}
+.footer_logo img{
+    height: 72px;
+    width: 307px;
+}
+.footer_menu ul li{
+display: inline-block;   
+ padding: 10px;
+ color: white;
+ font-family: korim;
+ font-weight: bold;
+}
+.footer_menu{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer_contact{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer_contact ul li{
+    display: inline-block;   
+     padding: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+/* footer end  */
+
+
